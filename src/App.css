@@ -1,0 +1,13 @@
+
+
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px 30px;
+  padding: 20px 8%;
+  gap: 10px;
+}
+
+.columns{
+  width: 33.33%;
+}

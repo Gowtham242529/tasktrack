@@ -1,0 +1,41 @@
+.task_card{
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+    gap: 10px;
+}
+
+.card_buttons_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_content{
+    padding-bottom: 5px;
+}
+
+.deleteIcon{
+    width: 20px;
+    height: 20px;
+    opacity: 60%;
+}
+
+.delete_container{
+    width: 34px;
+    height: 34px;
+    opacity: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.deleteIcon:hover{
+    opacity: 100%;
+}
+
+.delete_container:hover{
+    background-color: rgb(222, 222, 222);
+    border-radius: 100%;
+}

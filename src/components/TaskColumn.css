@@ -1,0 +1,16 @@
+.column_icon{
+    height: 50px;
+    width: 50px;
+}
+
+.columns{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Task_Column_heading{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
